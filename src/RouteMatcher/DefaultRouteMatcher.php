@@ -29,6 +29,11 @@ class DefaultRouteMatcher implements RouteMatcherInterface
     protected $defaults;
 
     /**
+     * @var array
+     */
+    protected $constraints;
+
+    /**
      * Parameters' name aliases.
      *
      * @var array
